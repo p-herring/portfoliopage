@@ -1,0 +1,77 @@
+html{
+    font-family: Helvitica;
+    color: black;
+    background-color: aliceblue;
+}
+body {
+font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 16px;
+max-width: 900px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;  
+}
+li {
+    display: list-item;
+    text-align: match-parent;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+#logo {
+    margin: 0;
+}
+
+.navigation-items {
+ display: flex;
+ list-style-type: none;
+ padding: auto;
+ align-items: center;
+ margin: 0 ;
+ margin-left: auto;
+}
+.navigation-item {
+    margin: 8px;
+}
+
+.contactme{
+display: flex;
+}
+.contactmecontainer {
+    margin-right: auto;
+}
+
+p {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.right-image{
+    width: 400px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    display: none;
+}
+.notanumber{
+color: blue;
+text-decoration: underline;
+cursor: pointer;
+}
+#tocome {
+    display: none;
+}
